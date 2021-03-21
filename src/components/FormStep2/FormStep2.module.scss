@@ -1,0 +1,17 @@
+.FormStep1 {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: aliceblue;
+
+  & form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+    min-height: 500px;
+
+    & label, button {
+      margin-top: 20px;
+    }
+  }
+}
